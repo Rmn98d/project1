@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href=".images/favicon-32x32.png">
   
   <title>Room homepage</title>
   <link href="style.css" rel="stylesheet">
@@ -69,8 +69,8 @@ function updateContent(){
 </head>
 
 <body>
-  <div class="row mainImgRow ">
-    <div class="mainImgCol col-xl-7 col-lg-7  p-0 mr-0" >
+  <div class="row mainImgRow m-0 p-0" >
+    <div class="mainImgCol col-xl-7 col-lg-7  p-0 m-0 "  >
       <div class="topNavbar">
         <div class="logoName"><h3>room</h3></div>
         <ul class="menu menu-container">
@@ -82,14 +82,14 @@ function updateContent(){
      <img src="images/icon-hamburger.svg" alt="icon-hamburger" class="hamburger" onclick="Open()"></img>
       
  
-  <img src="images/icon-close.svg" alt="close icon" class="cross" onclick="Close()">
+  <img src="images/icon-close.svg" class="cross" onclick="Close()">
  
      </div>
 
-       <img id="currentImg" alt="room Img" src="images/fr1.jpg"></img>
+       <img id="currentImg" src="images/fr1.jpg"></img>
     </div>
 
-    <div class="col-xl-5 col-lg-5 content">
+    <div class="col-xl-5 col-lg-5 content m-0 p-0">
       <div class="innerContent">
        <h1 id="title">Discover innovative ways to decorate</h1>
         <p id="discription"> We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life, Create a room in your own  style with our collection and make your property a reflection of you and what you love.</p>
@@ -98,30 +98,30 @@ function updateContent(){
        <h5>SHOP NOW  <img src="images/icon-arrow.svg"></img></h5>
 
       <div class="btn">
-        <div class="btn1"  onclick="changeImage('prev')"><img src="images/icon-angle-left.svg" alt="left icon"></img></div>
-        <div class="btn2" onclick="changeImage('next')"><img src="images/icon-angle-right.svg" alt="right icon"></img></div>
+        <div class="btn1"  onclick="changeImage('prev')"><img src="images/icon-angle-left.svg"></img></div>
+        <div class="btn2" onclick="changeImage('next')"><img src="images/icon-angle-right.svg"></img></div>
       </div>
     </div>
   </div>
 
 
-  <div class="row secondSection p-0 mr-0">
-    <div class=" col-xl col-lg-6 p-0 mr-0">
+  <div class="row secondSection p-0 m-0" >
+    <div class=" col-xl col-lg-6 p-0 m-0">
       <div class="aboutDarkImg">
-        <img src="images/image-about-dark.jpg" alt="img"></img>
+        <img src="images/image-about-dark.jpg"></img>
       </div>
     </div>
 
-    <div class="col-xl col-lg-6">
+    <div class="col-xl col-lg-6 ">
       <div class="about-our-furniture">
         <h1>ABOUT OUR FURNITURE</h1>
         <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
       </div>
     </div>
 
-   <div class="col-xl col-lg-13 p-0 mr-0">
+   <div class="col-xl col-lg-13 p-0 m-0">
         <div class="aboutLightImg">
-          <img src="images/image-about-light.jpg" alt="img"  ></img>
+          <img src="images/image-about-light.jpg"></img>
         </div>
     
     </div> 
